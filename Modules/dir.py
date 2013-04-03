@@ -19,3 +19,5 @@ print fibo.__doc__
 
 
 print dir(sys)
+
+print dir()
