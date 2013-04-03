@@ -21,3 +21,8 @@ print fibo.__doc__
 print dir(sys)
 
 print dir()
+'''
+Without any argument, dir() lists the name you have defined currently,
+including variable, module, and class
+'''
+
