@@ -77,3 +77,17 @@ Here are something need to be awared.
 1. "raise xxx" will occur one user-defined exception
 2. this exception has two parameters 'spam' and 'eggs' which are assigned by user predefined
 '''
+
+def this_fails():
+    x = 1 / 0
+
+try:
+    this_fails()
+except ZeroDivisionError as e:
+    print 'Handling run-time error:', e
+
+''' will return
+Handling run-time error: integer division or modulo by zero
+'''
+
+
